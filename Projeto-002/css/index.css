@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+html{
+    background: url("../images/background.jpg") no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.15rem;
+}
+
+.nav-links a:hover{
+    color: black;
+}
+
+.title h3{
+    color: white;
+}
+
+.title{
+    font-size: 2rem;
+    border-right: 4px #000 solid;
+    width: 14.5%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2.5s steps(40,end);
+    justify-content: center;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blinking{
+    50%{
+        border-color: transparent;
+    }
+}
+
+.center{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center h3{
+    color: white;
+}
+
+.center h3{
+    font-size: 2rem;
+    border-right: 4px #000 solid;
+    width: 16.7%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2.5s steps(40,end);
+    justify-content: center;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blinking{
+    50%{
+        border-color: transparent;
+    }
+}
+
+.center p{
+    width: 50%;
+    color: black;
+    font-size: 1.25rem;
+    text-align: center;
+}
